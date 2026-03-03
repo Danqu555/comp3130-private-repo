@@ -7,7 +7,14 @@ void main() {
         body: Container(
           decoration: BoxDecoration(color: Colors.orange),
           child: const Center(
-            child: Text('TEST'),
+            child: Text(
+              'Test',
+              style: TextStyle(
+                color: Colors.green,
+                fontFamily: 'BebasNeue',
+                fontSize: 80,
+              ),
+            ),
           ),
         ),
       ),
