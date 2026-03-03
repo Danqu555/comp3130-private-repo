@@ -1,5 +1,16 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MaterialApp(home: Text('TEST')));
+  runApp(
+    MaterialApp(
+      home: Scaffold(
+        body: Container(
+          decoration: BoxDecoration(color: Colors.orange),
+          child: const Center(
+            child: Text('TEST'),
+          ),
+        ),
+      ),
+    ),
+  );
 }
